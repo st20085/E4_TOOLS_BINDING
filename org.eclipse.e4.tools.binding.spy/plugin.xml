@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin>
+   <extension point="org.eclipse.e4.tools.spy.spyPart">
+      <spyPart
+            description="Binding Spy to display all bindings and their states"
+            icon="icons/bindings.png"
+            name="Binding Spy"
+            part="org.eclipse.e4.tools.bindings.spy.BindingSpyPart"
+            shortcut="M2+M3+F4">
+      </spyPart>
+   </extension>
+</plugin>
